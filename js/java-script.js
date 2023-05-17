@@ -4,7 +4,7 @@ let prezzo = (km_percorsi * 0.21)
 let prezzo_finale = prezzo.toFixed(2)
 
 if (isNaN(km_percorsi) || isNaN(eta)){
-    alert('il carattere inserito non è un numero');
+    alert('Uno dei due caratteri non è un numero');
 }
 
 else if (eta < 18){
